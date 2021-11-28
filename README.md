@@ -142,24 +142,24 @@ Room for improvement and To-Dos:
 - ...
 
 ## Project Organization
-│
-├── README.md                               <- The top-level README for developers using the project.
-│
-├── requirements.txt                        <- Containing the python packages incl. versions used within this project.
-│
-├── automated_trading_bot                   <- Including the code and the results of the deployed python code which predicts daily based on the new data input
-│
-├── calculated_datasets                     <- The datasets calculated from the ipynbs in ml_model -> dataset_generation 
-│
-├── data                                    <- Raw data from glassnode and yahoofinance used for calculating the datasets
-│
-└── scripts                                 <- Python scripts used within this project.
-    │
-    ├── dataset_generation                  <- Scripts to generate the "calculated dataset". 
-    │
-    ├── final_models                        <- Ipynbs which contain the best and most current versions of the ml-model to predict the target most accurately.
-    │       
-    ├── model_development                   <- Scripts used within the development of the final model in combination with the best features.
-    │
-    └── model_output                        <- Xlsx files containing the performance of different models, model parameters and features. 
+│<br />
+├── README.md                               <- The top-level README for developers using the project.<br />
+│<br />
+├── requirements.txt                        <- Containing the python packages incl. versions used within this project.<br />
+│<br />
+├── automated_trading_bot                   <- Including the code and the results of the deployed python code which predicts daily based on the new data input<br />
+│<br />
+├── calculated_datasets                     <- The datasets calculated from the ipynbs in ml_model -> dataset_generation <br />
+│<br />
+├── data                                    <- Raw data from glassnode and yahoofinance used for calculating the datasets<br />
+│<br />
+└── scripts                                 <- Python scripts used within this project.<br />
+    │<br />
+    ├── dataset_generation                  <- Scripts to generate the "calculated dataset". <br />
+    │<br />
+    ├── final_models                        <- Ipynbs which contain the best and most current versions of the ml-model to predict the target most accurately.<br />
+    │       <br />
+    ├── model_development                   <- Scripts used within the development of the final model in combination with the best features.<br />
+    │<br />
+    └── model_output                        <- Xlsx files containing the performance of different models, model parameters and features. <br />
 
