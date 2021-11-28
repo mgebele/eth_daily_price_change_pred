@@ -147,7 +147,7 @@ Room for improvement and To-Dos:
 │<br />
 ├── requirements.txt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Containing the python packages incl. versions used within this project.<br />
 │<br />
-├── automated_trading_bot  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Includes the code and the results of the deployed code which predicts daily based on the new data<br />
+├── automated_trading_bot  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Includes the code and the results of the deployed version which predicts daily<br />
 │<br />
 ├── calculated_datasets &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <- The datasets calculated from the ipynbs in ml_model -> dataset_generation <br />
 │<br />
@@ -157,9 +157,9 @@ Room for improvement and To-Dos:
 &nbsp;&nbsp;&nbsp;│<br />
 &nbsp;&nbsp;&nbsp;├── dataset_generation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Scripts to generate the "calculated dataset". <br />
 &nbsp;&nbsp;&nbsp;│<br />
-&nbsp;&nbsp;&nbsp;├── final_models &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Ipynbs which contain the best and most current versions of the ml-model to predict the target most accurately.<br />
+&nbsp;&nbsp;&nbsp;├── final_models &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Ipynbs which contain the best versions of the ml-model to predict the target.<br />
 &nbsp;&nbsp;&nbsp;│       <br />
-&nbsp;&nbsp;&nbsp;├── model_development&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <- Scripts used within the development of the final model in combination with the best features.<br />
+&nbsp;&nbsp;&nbsp;├── model_development&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <- Scripts used for the development of the best model and best features.<br />
 &nbsp;&nbsp;&nbsp;│<br />
-&nbsp;&nbsp;&nbsp;└── model_output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xlsx files containing the performance of different models, model parameters and features. <br />
+&nbsp;&nbsp;&nbsp;└── model_output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xlsx files containing the performance of different models, parameters & features.<br />
 
