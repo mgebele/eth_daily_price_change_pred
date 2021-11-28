@@ -1,0 +1,1182 @@
+            market/price_usd_close
+Date                              
+2020-11-20                18624.91
+2020-11-21                18681.88
+2020-11-22                18406.84
+2020-11-23                18340.95
+2020-11-24                19031.85
+            market/price_drawdown_relative
+Date                                      
+2020-11-19                           -0.10
+2020-11-20                           -0.06
+2020-11-21                           -0.06
+2020-11-22                           -0.07
+2020-11-23                           -0.07
+            market/price_realized_usd
+Date                                 
+2020-11-19                    7059.76
+2020-11-20                    7124.57
+2020-11-21                    7160.53
+2020-11-22                    7175.85
+2020-11-23                    7200.35
+            market/mvrv
+Date                   
+2020-11-19         2.52
+2020-11-20         2.57
+2020-11-21         2.61
+2020-11-22         2.56
+2020-11-23         2.56
+             mining/difficulty_latest
+Date                                 
+2020-11-19 75577685065077505392640.00
+2020-11-20 75577685065077505392640.00
+2020-11-21 75577685065077505392640.00
+2020-11-22 75577685065077505392640.00
+2020-11-23 75577685065077505392640.00
+              mining/hash_rate_mean
+Date                               
+2020-11-19 119777232389561008128.00
+2020-11-20 146905600959540002816.00
+2020-11-21 148574222687488999424.00
+2020-11-22 152598920841100001280.00
+2020-11-23 128548350086391005184.00
+            mining/marketcap_thermocap_ratio
+Date                                        
+2020-11-19                              0.00
+2020-11-20                              0.00
+2020-11-21                              0.00
+2020-11-22                              0.00
+2020-11-23                              0.00
+            blockchain/block_count
+Date                              
+2020-11-19                  137.00
+2020-11-20                  168.00
+2020-11-21                  169.00
+2020-11-22                  174.00
+2020-11-23                  147.00
+            blockchain/block_interval_mean
+Date                                      
+2020-11-19                          630.99
+2020-11-20                          514.46
+2020-11-21                          508.69
+2020-11-22                          495.27
+2020-11-23                          587.93
+            blockchain/block_size_sum
+Date                                 
+2020-11-19               182218606.00
+2020-11-20               215898792.00
+2020-11-21               194379095.00
+2020-11-22               161682411.00
+2020-11-23               180732812.00
+            fees/volume_sum
+Date                       
+2020-11-19            94.52
+2020-11-20            76.35
+2020-11-21            46.91
+2020-11-22            32.02
+2020-11-23            56.55
+            fees/volume_mean
+Date                        
+2020-11-19              0.00
+2020-11-20              0.00
+2020-11-21              0.00
+2020-11-22              0.00
+2020-11-23              0.00
+            fees/fee_ratio_multiple
+Date                               
+2020-11-19                    10.06
+2020-11-20                    14.75
+2020-11-21                    23.52
+2020-11-22                    34.96
+2020-11-23                    17.25
+            blockchain/utxo_created_count
+Date                                     
+2020-11-19                      900212.00
+2020-11-20                      987346.00
+2020-11-21                      869189.00
+2020-11-22                      771170.00
+2020-11-23                      850582.00
+            blockchain/utxo_spent_count
+Date                                   
+2020-11-19                    854196.00
+2020-11-20                   1031001.00
+2020-11-21                    916842.00
+2020-11-22                    746266.00
+2020-11-23                    836066.00
+            blockchain/utxo_created_value_sum
+Date                                         
+2020-11-19                         2378459.75
+2020-11-20                         2460005.91
+2020-11-21                         1907160.50
+2020-11-22                         1908302.56
+2020-11-23                         2246648.03
+            blockchain/utxo_spent_value_sum
+Date                                       
+2020-11-19                       2377603.50
+2020-11-20                       2458955.91
+2020-11-21                       1906104.25
+2020-11-22                       1907215.06
+2020-11-23                       2245729.28
+            blockchain/utxo_profit_relative
+Date                                       
+2020-11-19                             0.99
+2020-11-20                             1.00
+2020-11-21                             1.00
+2020-11-22                             0.99
+2020-11-23                             0.99
+            blockchain/utxo_profit_count
+Date                                    
+2020-11-19                  114089648.00
+2020-11-20                  114634037.00
+2020-11-21                  114462459.00
+2020-11-22                  113873696.00
+2020-11-23                  113657227.00
+            blockchain/utxo_loss_count
+Date                                  
+2020-11-19                   802121.00
+2020-11-20                   213538.00
+2020-11-21                   342841.00
+2020-11-22                   956508.00
+2020-11-23                  1187493.00
+            supply/current
+Date                      
+2020-11-19     18548306.25
+2020-11-20     18549356.25
+2020-11-21     18550412.50
+2020-11-22     18551500.00
+2020-11-23     18552418.75
+            supply/profit_relative
+Date                              
+2020-11-19                    0.98
+2020-11-20                    1.00
+2020-11-21                    0.99
+2020-11-22                    0.98
+2020-11-23                    0.97
+            supply/profit_sum
+Date                         
+2020-11-19        18224074.15
+2020-11-20        18460917.12
+2020-11-21        18426920.47
+2020-11-22        18135351.65
+2020-11-23        18035563.58
+            supply/loss_sum
+Date                       
+2020-11-19        291114.05
+2020-11-20         72227.61
+2020-11-21        110521.62
+2020-11-22        403177.94
+2020-11-23        503884.77
+            supply/active_more_1y_percent
+Date                                     
+2020-11-19                           0.61
+2020-11-20                           0.61
+2020-11-21                           0.62
+2020-11-22                           0.62
+2020-11-23                           0.62
+            supply/active_more_2y_percent
+Date                                     
+2020-11-19                           0.44
+2020-11-20                           0.44
+2020-11-21                           0.44
+2020-11-22                           0.44
+2020-11-23                           0.44
+            supply/active_more_3y_percent
+Date                                     
+2020-11-19                           0.32
+2020-11-20                           0.32
+2020-11-21                           0.32
+2020-11-22                           0.32
+2020-11-23                           0.33
+            supply/active_more_5y_percent
+Date                                     
+2020-11-19                           0.22
+2020-11-20                           0.22
+2020-11-21                           0.22
+2020-11-22                           0.22
+2020-11-23                           0.22
+            supply/active_24h
+Date                         
+2020-11-19          227999.22
+2020-11-20          372787.54
+2020-11-21          191067.64
+2020-11-22          140596.65
+2020-11-23          232143.73
+            supply/active_1d_1w
+Date                           
+2020-11-19            692139.82
+2020-11-20            642815.74
+2020-11-21            864455.70
+2020-11-22            914269.44
+2020-11-23            831057.23
+            supply/active_1w_1m
+Date                           
+2020-11-19           1649246.12
+2020-11-20           1604675.00
+2020-11-21           1464589.53
+2020-11-22           1324109.32
+2020-11-23           1338325.23
+            supply/active_1m_3m
+Date                           
+2020-11-19           1211312.94
+2020-11-20           1231288.61
+2020-11-21           1370107.11
+2020-11-22           1507692.62
+2020-11-23           1484287.96
+            supply/active_3m_6m
+Date                           
+2020-11-19           1386108.79
+2020-11-20           1372542.50
+2020-11-21           1360448.24
+2020-11-22           1368988.99
+2020-11-23           1375974.92
+            supply/active_6m_12m
+Date                            
+2020-11-19            1983957.25
+2020-11-20            1917817.38
+2020-11-21            1883158.38
+2020-11-22            1877464.83
+2020-11-23            1820694.57
+            supply/active_1y_2y
+Date                           
+2020-11-19           3257923.74
+2020-11-20           3271060.79
+2020-11-21           3285615.57
+2020-11-22           3287411.85
+2020-11-23           3340901.19
+            supply/active_2y_3y
+Date                           
+2020-11-19           2129561.72
+2020-11-20           2118417.67
+2020-11-21           2105855.61
+2020-11-22           2102230.79
+2020-11-23           2095236.46
+            supply/active_3y_5y
+Date                           
+2020-11-19           1948148.73
+2020-11-20           1957452.59
+2020-11-21           1964604.83
+2020-11-22           1968961.64
+2020-11-23           1974022.62
+            supply/active_5y_7y
+Date                           
+2020-11-19            894063.24
+2020-11-20            890695.55
+2020-11-21            888927.27
+2020-11-22            885261.90
+2020-11-23            883329.79
+            supply/active_7y_10y
+Date                            
+2020-11-19            1337175.83
+2020-11-20            1338213.76
+2020-11-21            1338636.89
+2020-11-22            1340884.60
+2020-11-23            1341815.28
+            supply/active_more_10y
+Date                              
+2020-11-19              1830639.90
+2020-11-20              1831560.16
+2020-11-21              1832916.79
+2020-11-22              1833598.43
+2020-11-23              1834600.82
+            supply/issued
+Date                     
+2020-11-19         856.25
+2020-11-20        1050.00
+2020-11-21        1056.25
+2020-11-22        1087.50
+2020-11-23         918.75
+            supply/inflation_rate
+Date                             
+2020-11-19                   0.02
+2020-11-20                   0.02
+2020-11-21                   0.02
+2020-11-22                   0.02
+2020-11-23                   0.02
+            transactions/count
+Date                          
+2020-11-19           310924.00
+2020-11-20           347858.00
+2020-11-21           311020.00
+2020-11-22           270951.00
+2020-11-23           297693.00
+            transactions/size_sum
+Date                             
+2020-11-19           182164679.00
+2020-11-20           215831898.00
+2020-11-21           194310732.00
+2020-11-22           161613500.00
+2020-11-23           180674222.00
+            transactions/transfers_volume_sum
+Date                                         
+2020-11-19                         2377508.98
+2020-11-20                         2458879.56
+2020-11-21                         1906057.34
+2020-11-22                         1907183.04
+2020-11-23                         2245672.73
+            transactions/transfers_volume_adjusted_sum
+Date                                                  
+2020-11-19                                   511400.15
+2020-11-20                                   683413.90
+2020-11-21                                   405925.65
+2020-11-22                                   340699.10
+2020-11-23                                   494806.93
+            indicators/sopr_adjusted
+Date                                
+2020-11-19                      1.06
+2020-11-20                      1.13
+2020-11-21                      1.10
+2020-11-22                      1.05
+2020-11-23                      1.06
+            indicators/nvt
+Date                      
+2020-11-19           36.27
+2020-11-20           27.14
+2020-11-21           45.70
+2020-11-22           54.45
+2020-11-23           37.49
+            indicators/velocity
+Date                           
+2020-11-19                 0.03
+2020-11-20                 0.04
+2020-11-21                 0.02
+2020-11-22                 0.02
+2020-11-23                 0.03
+            indicators/cdd
+Date                      
+2020-11-19     13848626.22
+2020-11-20     30584043.54
+2020-11-21     18390118.55
+2020-11-22      9694900.66
+2020-11-23     10663149.90
+            indicators/reserve_risk
+Date                               
+2020-11-19                     0.00
+2020-11-20                     0.00
+2020-11-21                     0.00
+2020-11-22                     0.00
+2020-11-23                     0.00
+            indicators/average_dormancy
+Date                                   
+2020-11-19                        27.08
+2020-11-20                        44.75
+2020-11-21                        45.30
+2020-11-22                        28.46
+2020-11-23                        21.55
+            indicators/liveliness
+Date                             
+2020-11-19                   0.60
+2020-11-20                   0.60
+2020-11-21                   0.60
+2020-11-22                   0.60
+2020-11-23                   0.60
+            indicators/asol
+Date                       
+2020-11-19            44.55
+2020-11-20            54.92
+2020-11-21            70.54
+2020-11-22            69.32
+2020-11-23            43.74
+            indicators/sol_1h
+Date                         
+2020-11-19          182160.00
+2020-11-20          221946.00
+2020-11-21          202843.00
+2020-11-22          180775.00
+2020-11-23          181364.00
+            indicators/sol_1h_24h
+Date                             
+2020-11-19              313044.00
+2020-11-20              342433.00
+2020-11-21              311073.00
+2020-11-22              241950.00
+2020-11-23              250962.00
+            indicators/sol_1d_1w
+Date                            
+2020-11-19             176222.00
+2020-11-20             243577.00
+2020-11-21             200966.00
+2020-11-22             157398.00
+2020-11-23             236402.00
+            indicators/sol_1w_1m
+Date                            
+2020-11-19              91418.00
+2020-11-20              99974.00
+2020-11-21              88259.00
+2020-11-22              72597.00
+2020-11-23              86426.00
+            indicators/sol_1m_3m
+Date                            
+2020-11-19              39797.00
+2020-11-20              44277.00
+2020-11-21              35358.00
+2020-11-22              34696.00
+2020-11-23              33887.00
+            indicators/sol_3m_6m
+Date                            
+2020-11-19              14084.00
+2020-11-20              19347.00
+2020-11-21              20380.00
+2020-11-22              14148.00
+2020-11-23              13129.00
+            indicators/sol_6m_12m
+Date                             
+2020-11-19               12644.00
+2020-11-20               20056.00
+2020-11-21               15753.00
+2020-11-22               13147.00
+2020-11-23               10962.00
+            indicators/sol_1y_2y
+Date                            
+2020-11-19              11008.00
+2020-11-20              18501.00
+2020-11-21              17958.00
+2020-11-22              12541.00
+2020-11-23              10213.00
+            indicators/sol_2y_3y
+Date                            
+2020-11-19               9915.00
+2020-11-20              15281.00
+2020-11-21              12470.00
+2020-11-22               9765.00
+2020-11-23               7664.00
+            indicators/sol_3y_5y
+Date                            
+2020-11-19               3094.00
+2020-11-20               4422.00
+2020-11-21               9823.00
+2020-11-22               6986.00
+2020-11-23               4030.00
+            indicators/sol_5y_7y
+Date                            
+2020-11-19                705.00
+2020-11-20                970.00
+2020-11-21               1792.00
+2020-11-22               1928.00
+2020-11-23                928.00
+            indicators/sol_7y_10y
+Date                             
+2020-11-19                 104.00
+2020-11-20                 217.00
+2020-11-21                 167.00
+2020-11-22                 335.00
+2020-11-23                  99.00
+            indicators/net_unrealized_profit_loss
+Date                                             
+2020-11-19                                   0.60
+2020-11-20                                   0.62
+2020-11-21                                   0.61
+2020-11-22                                   0.61
+2020-11-23                                   0.61
+            indicators/unrealized_profit
+Date                                    
+2020-11-19                          0.60
+2020-11-20                          0.62
+2020-11-21                          0.61
+2020-11-22                          0.61
+2020-11-23                          0.61
+            indicators/unrealized_loss
+Date                                  
+2020-11-19                        0.00
+2020-11-20                        0.00
+2020-11-21                        0.00
+2020-11-22                        0.00
+2020-11-23                        0.00
+            indicators/net_realized_profit_loss
+Date                                           
+2020-11-19                         415593482.70
+2020-11-20                        1315151976.28
+2020-11-21                         634023715.16
+2020-11-22                         257508554.22
+2020-11-23                         438841196.02
+            indicators/realized_profit
+Date                                  
+2020-11-19                469638576.26
+2020-11-20               1344409595.07
+2020-11-21                669123199.56
+2020-11-22                318348626.60
+2020-11-23                500863323.65
+            indicators/realized_loss
+Date                                
+2020-11-19               54045093.57
+2020-11-20               29257618.80
+2020-11-21               35099484.40
+2020-11-22               60840072.38
+2020-11-23               62022127.63
+            indicators/nupl_more_155
+Date                                
+2020-11-19                      0.69
+2020-11-20                      0.70
+2020-11-21                      0.70
+2020-11-22                      0.70
+2020-11-23                      0.69
+            indicators/nupl_less_155
+Date                                
+2020-11-19                      0.26
+2020-11-20                      0.28
+2020-11-21                      0.28
+2020-11-22                      0.27
+2020-11-23                      0.26
+            indicators/puell_multiple
+Date                                 
+2020-11-19                       1.26
+2020-11-20                       1.59
+2020-11-21                       1.63
+2020-11-22                       1.65
+2020-11-23                       1.39
+            indicators/stock_to_flow_deflection
+Date                                           
+2020-11-19                                 0.67
+2020-11-20                                 0.70
+2020-11-21                                 0.70
+2020-11-22                                 0.68
+2020-11-23                                 0.68
+            indicators/difficulty_ribbon_compression
+Date                                                
+2020-11-19                                      0.04
+2020-11-20                                      0.04
+2020-11-21                                      0.03
+2020-11-22                                      0.03
+2020-11-23                                      0.03
+            addresses/active_count
+Date                              
+2020-11-19              1058686.00
+2020-11-20              1182433.00
+2020-11-21              1018142.00
+2020-11-22               866476.00
+2020-11-23              1002381.00
+            addresses/sending_count
+Date                               
+2020-11-19                660869.00
+2020-11-20                768842.00
+2020-11-21                664034.00
+2020-11-22                546614.00
+2020-11-23                614205.00
+            addresses/receiving_count
+Date                                 
+2020-11-19                  717366.00
+2020-11-20                  772323.00
+2020-11-21                  663940.00
+2020-11-22                  587218.00
+2020-11-23                  671917.00
+            addresses/new_non_zero_count
+Date                                    
+2020-11-19                     517332.00
+2020-11-20                     559823.00
+2020-11-21                     486456.00
+2020-11-22                     430736.00
+2020-11-23                     484809.00
+            addresses/non_zero_count
+Date                                
+2020-11-19               32544167.00
+2020-11-20               32512396.00
+2020-11-21               32480395.00
+2020-11-22               32493211.00
+2020-11-23               32522917.00
+            addresses/min_point_zero_1_count
+Date                                        
+2020-11-19                        8542553.00
+2020-11-20                        8540688.00
+2020-11-21                        8529895.00
+2020-11-22                        8529792.00
+2020-11-23                        8536971.00
+            addresses/min_point_1_count
+Date                                   
+2020-11-19                   3125440.00
+2020-11-20                   3124259.00
+2020-11-21                   3122410.00
+2020-11-22                   3122121.00
+2020-11-23                   3128562.00
+            addresses/min_1_count
+Date                             
+2020-11-19              819280.00
+2020-11-20              819129.00
+2020-11-21              819099.00
+2020-11-22              819733.00
+2020-11-23              820280.00
+            addresses/min_10_count
+Date                              
+2020-11-19               154441.00
+2020-11-20               154421.00
+2020-11-21               154442.00
+2020-11-22               154479.00
+2020-11-23               154612.00
+            addresses/min_100_count
+Date                               
+2020-11-19                 16199.00
+2020-11-20                 16210.00
+2020-11-21                 16187.00
+2020-11-22                 16154.00
+2020-11-23                 16161.00
+            addresses/min_1k_count
+Date                              
+2020-11-19                 2229.00
+2020-11-20                 2249.00
+2020-11-21                 2256.00
+2020-11-22                 2256.00
+2020-11-23                 2260.00
+            addresses/min_10k_count
+Date                               
+2020-11-19                   112.00
+2020-11-20                   111.00
+2020-11-21                   111.00
+2020-11-22                   111.00
+2020-11-23                   110.00
+91
+[[229 240]
+ [160 397]]
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.49      0.53       469
+         1.0       0.62      0.71      0.66       557
+
+    accuracy                           0.61      1026
+   macro avg       0.61      0.60      0.60      1026
+weighted avg       0.61      0.61      0.61      1026
+
+AUC: 0.6447500890010067
+AUC scores computed using 10-fold cross-validation: [0.68201067 0.69368222 0.6462386  0.65928731 0.65984285 0.66725255
+ 0.65567273 0.62444858 0.63201663 0.66039501]
+Accuracy scores computed using 10-fold cross-validation: [0.61695906 0.59649123 0.5994152  0.66374269 0.62573099 0.59064327
+ 0.58479532 0.60526316 0.59530792 0.61876833]
+Scores: [0.61695906 0.59649123 0.5994152  0.66374269 0.62573099 0.59064327
+ 0.58479532 0.60526316 0.59530792 0.61876833]
+Mean: 0.6097117182006826
+Standard Deviation: 0.021915748649134842
+[[227 242]
+ [150 407]]
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.48      0.54       469
+         1.0       0.63      0.73      0.67       557
+
+    accuracy                           0.62      1026
+   macro avg       0.61      0.61      0.61      1026
+weighted avg       0.62      0.62      0.61      1026
+
+AUC: 0.6591127460925688
+AUC scores computed using 10-fold cross-validation: [0.59087623 0.61249785 0.68101222 0.68691685 0.73173422 0.66170389
+ 0.65780948 0.62806727 0.64033264 0.63264033]
+Accuracy scores computed using 10-fold cross-validation: [0.62280702 0.5877193  0.66666667 0.61111111 0.62865497 0.60526316
+ 0.64035088 0.62280702 0.58944282 0.64222874]
+Scores: [0.62280702 0.5877193  0.66666667 0.61111111 0.62865497 0.60526316
+ 0.64035088 0.62280702 0.58944282 0.64222874]
+Mean: 0.6217051671211264
+Standard Deviation: 0.02328006913489844
+Log Price in USD
+Volatility Daily Log Return in Percent 5D
+market/price_usd_close
+market/price_drawdown_relative
+market/price_realized_usd
+market/mvrv
+mining/difficulty_latest
+mining/hash_rate_mean
+blockchain/block_count
+blockchain/block_interval_mean
+blockchain/block_size_sum
+fees/volume_sum
+fees/volume_mean
+fees/fee_ratio_multiple
+blockchain/utxo_created_count
+blockchain/utxo_spent_count
+blockchain/utxo_created_value_sum
+blockchain/utxo_spent_value_sum
+blockchain/utxo_profit_relative
+blockchain/utxo_profit_count
+blockchain/utxo_loss_count
+supply/current
+supply/profit_relative
+supply/profit_sum
+supply/loss_sum
+supply/active_more_1y_percent
+supply/active_more_2y_percent
+supply/active_more_3y_percent
+supply/active_more_5y_percent
+supply/active_24h
+supply/active_1d_1w
+supply/active_1w_1m
+supply/active_1m_3m
+supply/active_3m_6m
+supply/active_6m_12m
+supply/active_1y_2y
+supply/active_2y_3y
+supply/active_3y_5y
+supply/active_5y_7y
+supply/active_7y_10y
+supply/active_more_10y
+supply/issued
+supply/inflation_rate
+transactions/count
+transactions/size_sum
+transactions/transfers_volume_sum
+transactions/transfers_volume_adjusted_sum
+indicators/sopr_adjusted
+indicators/nvt
+indicators/velocity
+indicators/cdd
+indicators/reserve_risk
+indicators/average_dormancy
+indicators/liveliness
+indicators/asol
+indicators/sol_1h
+indicators/sol_1h_24h
+indicators/sol_1d_1w
+indicators/sol_1w_1m
+indicators/sol_1m_3m
+indicators/sol_3m_6m
+indicators/sol_6m_12m
+indicators/sol_1y_2y
+indicators/sol_2y_3y
+indicators/sol_3y_5y
+indicators/sol_5y_7y
+indicators/sol_7y_10y
+indicators/net_unrealized_profit_loss
+indicators/unrealized_profit
+indicators/unrealized_loss
+indicators/net_realized_profit_loss
+indicators/realized_profit
+indicators/realized_loss
+indicators/nupl_more_155
+indicators/nupl_less_155
+indicators/puell_multiple
+indicators/stock_to_flow_deflection
+indicators/difficulty_ribbon_compression
+addresses/active_count
+addresses/sending_count
+addresses/receiving_count
+addresses/new_non_zero_count
+addresses/non_zero_count
+addresses/min_point_zero_1_count
+addresses/min_point_1_count
+addresses/min_1_count
+addresses/min_10_count
+addresses/min_100_count
+addresses/min_1k_count
+addresses/min_10k_count
+Class
+Run: 1
+[[220 249]
+ [149 408]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.47      0.53       469
+         1.0       0.62      0.73      0.67       557
+
+    accuracy                           0.61      1026
+   macro avg       0.61      0.60      0.60      1026
+weighted avg       0.61      0.61      0.60      1026
+
+1105.80%
+SpecPeriod:
+Total Return in SpecPeriod: 1316 / Profit:  2395 / Loss:  1058 / TransCosts:  20 / #CorrectPreds: 84 of 145
+CalcAccuracy 0.58 -- profit in %/bet: 1.54
+Entire Period:
+einsatz 626080 TotReturn: 10682 / Profit:  19807 / Loss:  8749 / TransCosts:  375 / CalcAccuracy 0.61 / #CorrectPreds: 628 Of 1026
+einsatz/bet 610.2144658313093 TotReturn / bet 10.41130604288499 / TranCosts / bet  0.3654970760233918 / CalcuAcc 0.61
+profit in %/bet: 1.71
+einsatz * 1+profit% ^ # wetten 34541173029.64
+Run: 2
+[[218 251]
+ [184 373]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.46      0.50       469
+         1.0       0.60      0.67      0.63       557
+
+    accuracy                           0.58      1026
+   macro avg       0.57      0.57      0.57      1026
+weighted avg       0.57      0.58      0.57      1026
+
+936.79%
+SpecPeriod:
+Total Return in SpecPeriod: 1016 / Profit:  2265 / Loss:  1226 / TransCosts:  22 / #CorrectPreds: 68 of 133
+CalcAccuracy 0.51 -- profit in %/bet: 1.29
+Entire Period:
+einsatz 626588 TotReturn: 8991 / Profit:  19631 / Loss:  10263 / TransCosts:  375 / CalcAccuracy 0.58 / #CorrectPreds: 591 Of 1026
+einsatz/bet 610.7096178977513 TotReturn / bet 8.763157894736842 / TranCosts / bet  0.3654970760233918 / CalcuAcc 0.58
+profit in %/bet: 1.43
+einsatz * 1+profit% ^ # wetten 2230177816.30
+Run: 3
+[[206 263]
+ [156 401]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.44      0.50       469
+         1.0       0.60      0.72      0.66       557
+
+    accuracy                           0.59      1026
+   macro avg       0.59      0.58      0.58      1026
+weighted avg       0.59      0.59      0.58      1026
+
+1106.74%
+SpecPeriod:
+Total Return in SpecPeriod: 1046 / Profit:  2009 / Loss:  940 / TransCosts:  22 / #CorrectPreds: 69 of 133
+CalcAccuracy 0.52 -- profit in %/bet: 1.30
+Entire Period:
+einsatz 630388 TotReturn: 10689 / Profit:  20633 / Loss:  9565 / TransCosts:  378 / CalcAccuracy 0.59 / #CorrectPreds: 607 Of 1026
+einsatz/bet 614.4142011747176 TotReturn / bet 10.41812865497076 / TranCosts / bet  0.3684210526315789 / CalcuAcc 0.59
+profit in %/bet: 1.70
+einsatz * 1+profit% ^ # wetten 31053162448.99
+Run: 4
+[[249 220]
+ [160 397]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.53      0.57       469
+         1.0       0.64      0.71      0.68       557
+
+    accuracy                           0.63      1026
+   macro avg       0.63      0.62      0.62      1026
+weighted avg       0.63      0.63      0.63      1026
+
+1249.62%
+SpecPeriod:
+Total Return in SpecPeriod: 1024 / Profit:  1877 / Loss:  835 / TransCosts:  17 / #CorrectPreds: 73 of 123
+CalcAccuracy 0.59 -- profit in %/bet: 1.41
+Entire Period:
+einsatz 621825 TotReturn: 12123 / Profit:  20935 / Loss:  8439 / TransCosts:  373 / CalcAccuracy 0.63 / #CorrectPreds: 646 Of 1026
+einsatz/bet 606.0681293461586 TotReturn / bet 11.81578947368421 / TranCosts / bet  0.3635477582846004 / CalcuAcc 0.63
+profit in %/bet: 1.95
+einsatz * 1+profit% ^ # wetten 401298068577.83
+Run: 5
+[[239 230]
+ [158 399]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.51      0.55       469
+         1.0       0.63      0.72      0.67       557
+
+    accuracy                           0.62      1026
+   macro avg       0.62      0.61      0.61      1026
+weighted avg       0.62      0.62      0.62      1026
+
+1102.07%
+SpecPeriod:
+Total Return in SpecPeriod: 1080 / Profit:  2119 / Loss:  1019 / TransCosts:  19 / #CorrectPreds: 82 of 138
+CalcAccuracy 0.59 -- profit in %/bet: 1.34
+Entire Period:
+einsatz 619726 TotReturn: 10648 / Profit:  19888 / Loss:  8867 / TransCosts:  371 / CalcAccuracy 0.62 / #CorrectPreds: 638 Of 1026
+einsatz/bet 604.0216391415837 TotReturn / bet 10.378167641325536 / TranCosts / bet  0.361598440545809 / CalcuAcc 0.62
+profit in %/bet: 1.72
+einsatz * 1+profit% ^ # wetten 38988434209.18
+Run: 6
+[[221 248]
+ [140 417]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.47      0.53       469
+         1.0       0.63      0.75      0.68       557
+
+    accuracy                           0.62      1026
+   macro avg       0.62      0.61      0.61      1026
+weighted avg       0.62      0.62      0.61      1026
+
+1164.75%
+SpecPeriod:
+Total Return in SpecPeriod: 931 / Profit:  1617 / Loss:  668 / TransCosts:  17 / #CorrectPreds: 74 of 125
+CalcAccuracy 0.59 -- profit in %/bet: 1.29
+Entire Period:
+einsatz 630617 TotReturn: 11269 / Profit:  20179 / Loss:  8532 / TransCosts:  378 / CalcAccuracy 0.62 / #CorrectPreds: 638 Of 1026
+einsatz/bet 614.6370010919754 TotReturn / bet 10.983430799220272 / TranCosts / bet  0.3684210526315789 / CalcuAcc 0.62
+profit in %/bet: 1.79
+einsatz * 1+profit% ^ # wetten 78022583358.17
+Run: 7
+[[225 244]
+ [165 392]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.48      0.52       469
+         1.0       0.62      0.70      0.66       557
+
+    accuracy                           0.60      1026
+   macro avg       0.60      0.59      0.59      1026
+weighted avg       0.60      0.60      0.60      1026
+
+1022.70%
+SpecPeriod:
+Total Return in SpecPeriod: 1187 / Profit:  2311 / Loss:  1098 / TransCosts:  25 / #CorrectPreds: 82 of 152
+CalcAccuracy 0.54 -- profit in %/bet: 1.29
+Entire Period:
+einsatz 625193 TotReturn: 9851 / Profit:  19793 / Loss:  9566 / TransCosts:  375 / CalcAccuracy 0.6 / #CorrectPreds: 617 Of 1026
+einsatz/bet 609.3505516903502 TotReturn / bet 9.601364522417153 / TranCosts / bet  0.3654970760233918 / CalcuAcc 0.6
+profit in %/bet: 1.58
+einsatz * 1+profit% ^ # wetten 9251995701.90
+Run: 8
+[[230 239]
+ [169 388]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.49      0.53       469
+         1.0       0.62      0.70      0.66       557
+
+    accuracy                           0.60      1026
+   macro avg       0.60      0.59      0.59      1026
+weighted avg       0.60      0.60      0.60      1026
+
+1047.97%
+SpecPeriod:
+Total Return in SpecPeriod: 939 / Profit:  1685 / Loss:  728 / TransCosts:  17 / #CorrectPreds: 75 of 127
+CalcAccuracy 0.59 -- profit in %/bet: 1.28
+Entire Period:
+einsatz 623199 TotReturn: 10105 / Profit:  20040 / Loss:  9560 / TransCosts:  373 / CalcAccuracy 0.6 / #CorrectPreds: 618 Of 1026
+einsatz/bet 607.4064972652548 TotReturn / bet 9.848927875243664 / TranCosts / bet  0.3635477582846004 / CalcuAcc 0.6
+profit in %/bet: 1.62
+einsatz * 1+profit% ^ # wetten 14692818037.59
+Run: 9
+[[225 244]
+ [165 392]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.48      0.52       469
+         1.0       0.62      0.70      0.66       557
+
+    accuracy                           0.60      1026
+   macro avg       0.60      0.59      0.59      1026
+weighted avg       0.60      0.60      0.60      1026
+
+953.97%
+SpecPeriod:
+Total Return in SpecPeriod: 343 / Profit:  1474 / Loss:  1111 / TransCosts:  19 / #CorrectPreds: 71 of 128
+CalcAccuracy 0.55 -- profit in %/bet: 0.45
+Entire Period:
+einsatz 628861 TotReturn: 9162 / Profit:  19025 / Loss:  9485 / TransCosts:  377 / CalcAccuracy 0.6 / #CorrectPreds: 617 Of 1026
+einsatz/bet 612.9249772140362 TotReturn / bet 8.929824561403509 / TranCosts / bet  0.36744639376218324 / CalcuAcc 0.6
+profit in %/bet: 1.46
+einsatz * 1+profit% ^ # wetten 2786095978.34
+Run: 10
+[[229 240]
+ [172 385]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.49      0.53       469
+         1.0       0.62      0.69      0.65       557
+
+    accuracy                           0.60      1026
+   macro avg       0.59      0.59      0.59      1026
+weighted avg       0.60      0.60      0.59      1026
+
+1182.83%
+SpecPeriod:
+Total Return in SpecPeriod: 699 / Profit:  1886 / Loss:  1165 / TransCosts:  20 / #CorrectPreds: 76 of 137
+CalcAccuracy 0.55 -- profit in %/bet: 0.88
+Entire Period:
+einsatz 621999 TotReturn: 11455 / Profit:  19705 / Loss:  7877 / TransCosts:  373 / CalcAccuracy 0.6 / #CorrectPreds: 614 Of 1026
+einsatz/bet 606.236978788762 TotReturn / bet 11.164717348927875 / TranCosts / bet  0.3635477582846004 / CalcuAcc 0.6
+profit in %/bet: 1.84
+einsatz * 1+profit% ^ # wetten 135348953322.63
+Run: 11
+[[219 250]
+ [151 406]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.47      0.52       469
+         1.0       0.62      0.73      0.67       557
+
+    accuracy                           0.61      1026
+   macro avg       0.61      0.60      0.60      1026
+weighted avg       0.61      0.61      0.60      1026
+
+911.24%
+SpecPeriod:
+Total Return in SpecPeriod: 729 / Profit:  1600 / Loss:  856 / TransCosts:  15 / #CorrectPreds: 70 of 115
+CalcAccuracy 0.61 -- profit in %/bet: 1.08
+Entire Period:
+einsatz 623971 TotReturn: 8737 / Profit:  19349 / Loss:  10237 / TransCosts:  374 / CalcAccuracy 0.61 / #CorrectPreds: 625 Of 1026
+einsatz/bet 608.1596193593303 TotReturn / bet 8.515594541910332 / TranCosts / bet  0.3645224171539961 / CalcuAcc 0.61
+profit in %/bet: 1.40
+einsatz * 1+profit% ^ # wetten 1570089537.01
+Run: 12
+[[216 253]
+ [147 410]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.46      0.52       469
+         1.0       0.62      0.74      0.67       557
+
+    accuracy                           0.61      1026
+   macro avg       0.61      0.60      0.60      1026
+weighted avg       0.61      0.61      0.60      1026
+
+1002.22%
+SpecPeriod:
+Total Return in SpecPeriod: 782 / Profit:  1501 / Loss:  703 / TransCosts:  16 / #CorrectPreds: 67 of 114
+CalcAccuracy 0.59 -- profit in %/bet: 1.16
+Entire Period:
+einsatz 621364 TotReturn: 9649 / Profit:  19384 / Loss:  9361 / TransCosts:  372 / CalcAccuracy 0.61 / #CorrectPreds: 626 Of 1026
+einsatz/bet 605.6180400953739 TotReturn / bet 9.404483430799221 / TranCosts / bet  0.36257309941520466 / CalcuAcc 0.61
+profit in %/bet: 1.55
+einsatz * 1+profit% ^ # wetten 7348778644.24
+Run: 13
+[[198 271]
+ [143 414]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.42      0.49       469
+         1.0       0.60      0.74      0.67       557
+
+    accuracy                           0.60      1026
+   macro avg       0.59      0.58      0.58      1026
+weighted avg       0.59      0.60      0.59      1026
+
+1043.20%
+SpecPeriod:
+Total Return in SpecPeriod: 150 / Profit:  1508 / Loss:  1331 / TransCosts:  26 / #CorrectPreds: 68 of 141
+CalcAccuracy 0.48 -- profit in %/bet: 0.17
+Entire Period:
+einsatz 627859 TotReturn: 10055 / Profit:  19718 / Loss:  9286 / TransCosts:  376 / CalcAccuracy 0.6 / #CorrectPreds: 612 Of 1026
+einsatz/bet 611.9487607435473 TotReturn / bet 9.800194931773879 / TranCosts / bet  0.3664717348927875 / CalcuAcc 0.6
+profit in %/bet: 1.60
+einsatz * 1+profit% ^ # wetten 12006183324.94
+Run: 14
+[[214 255]
+ [136 421]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.46      0.52       469
+         1.0       0.62      0.76      0.68       557
+
+    accuracy                           0.62      1026
+   macro avg       0.62      0.61      0.60      1026
+weighted avg       0.62      0.62      0.61      1026
+
+1085.45%
+SpecPeriod:
+Total Return in SpecPeriod: 1511 / Profit:  2417 / Loss:  886 / TransCosts:  20 / #CorrectPreds: 76 of 135
+CalcAccuracy 0.56 -- profit in %/bet: 1.92
+Entire Period:
+einsatz 624836 TotReturn: 10479 / Profit:  19705 / Loss:  8851 / TransCosts:  374 / CalcAccuracy 0.62 / #CorrectPreds: 635 Of 1026
+einsatz/bet 609.0026343395783 TotReturn / bet 10.213450292397662 / TranCosts / bet  0.3645224171539961 / CalcuAcc 0.62
+profit in %/bet: 1.68
+einsatz * 1+profit% ^ # wetten 25754742952.47
+Run: 15
+[[219 250]
+ [129 428]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.63      0.47      0.54       469
+         1.0       0.63      0.77      0.69       557
+
+    accuracy                           0.63      1026
+   macro avg       0.63      0.62      0.61      1026
+weighted avg       0.63      0.63      0.62      1026
+
+1103.94%
+SpecPeriod:
+Total Return in SpecPeriod: 551 / Profit:  1521 / Loss:  951 / TransCosts:  18 / #CorrectPreds: 70 of 124
+CalcAccuracy 0.56 -- profit in %/bet: 0.76
+Entire Period:
+einsatz 623234 TotReturn: 10665 / Profit:  20436 / Loss:  9397 / TransCosts:  373 / CalcAccuracy 0.63 / #CorrectPreds: 647 Of 1026
+einsatz/bet 607.4411312767988 TotReturn / bet 10.394736842105264 / TranCosts / bet  0.3635477582846004 / CalcuAcc 0.63
+profit in %/bet: 1.71
+einsatz * 1+profit% ^ # wetten 36350777363.10
+Run: 16
+[[220 249]
+ [157 400]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.47      0.52       469
+         1.0       0.62      0.72      0.66       557
+
+    accuracy                           0.60      1026
+   macro avg       0.60      0.59      0.59      1026
+weighted avg       0.60      0.60      0.60      1026
+
+1056.06%
+SpecPeriod:
+Total Return in SpecPeriod: 867 / Profit:  1763 / Loss:  875 / TransCosts:  20 / #CorrectPreds: 78 of 137
+CalcAccuracy 0.57 -- profit in %/bet: 1.09
+Entire Period:
+einsatz 625079 TotReturn: 10185 / Profit:  18836 / Loss:  8275 / TransCosts:  375 / CalcAccuracy 0.6 / #CorrectPreds: 620 Of 1026
+einsatz/bet 609.2388138755099 TotReturn / bet 9.926900584795321 / TranCosts / bet  0.3654970760233918 / CalcuAcc 0.6
+profit in %/bet: 1.63
+einsatz * 1+profit% ^ # wetten 15916172017.24
+Run: 17
+[[223 246]
+ [160 397]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.48      0.52       469
+         1.0       0.62      0.71      0.66       557
+
+    accuracy                           0.60      1026
+   macro avg       0.60      0.59      0.59      1026
+weighted avg       0.60      0.60      0.60      1026
+
+1167.22%
+SpecPeriod:
+Total Return in SpecPeriod: 808 / Profit:  1557 / Loss:  732 / TransCosts:  16 / #CorrectPreds: 66 of 116
+CalcAccuracy 0.57 -- profit in %/bet: 1.20
+Entire Period:
+einsatz 631242 TotReturn: 11293 / Profit:  20833 / Loss:  9160 / TransCosts:  378 / CalcAccuracy 0.6 / #CorrectPreds: 620 Of 1026
+einsatz/bet 615.2458048814075 TotReturn / bet 11.00682261208577 / TranCosts / bet  0.3684210526315789 / CalcuAcc 0.6
+profit in %/bet: 1.79
+einsatz * 1+profit% ^ # wetten 79638540423.98
+Run: 18
+[[221 248]
+ [138 419]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.47      0.53       469
+         1.0       0.63      0.75      0.68       557
+
+    accuracy                           0.62      1026
+   macro avg       0.62      0.61      0.61      1026
+weighted avg       0.62      0.62      0.62      1026
+
+1198.30%
+SpecPeriod:
+Total Return in SpecPeriod: 611 / Profit:  1407 / Loss:  775 / TransCosts:  20 / #CorrectPreds: 65 of 124
+CalcAccuracy 0.52 -- profit in %/bet: 0.82
+Entire Period:
+einsatz 634413 TotReturn: 11602 / Profit:  20458 / Loss:  8475 / TransCosts:  380 / CalcAccuracy 0.62 / #CorrectPreds: 640 Of 1026
+einsatz/bet 618.3366727164209 TotReturn / bet 11.307992202729045 / TranCosts / bet  0.37037037037037035 / CalcuAcc 0.62
+profit in %/bet: 1.83
+einsatz * 1+profit% ^ # wetten 118893136027.48
+Run: 19
+[[214 255]
+ [154 403]]
+Threshold of: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.46      0.51       469
+         1.0       0.61      0.72      0.66       557
+
+    accuracy                           0.60      1026
+   macro avg       0.60      0.59      0.59      1026
+weighted avg       0.60      0.60      0.59      1026
+
+853.77%
+SpecPeriod:
+Total Return in SpecPeriod: -29 / Profit:  1127 / Loss:  1136 / TransCosts:  21 / #CorrectPreds: 63 of 123
+CalcAccuracy 0.51 -- profit in %/bet: -0.04
+Entire Period:
+einsatz 624381 TotReturn: 8163 / Profit:  18554 / Loss:  10017 / TransCosts:  374 / CalcAccuracy 0.6 / #CorrectPreds: 617 Of 1026
+einsatz/bet 608.5591703143389 TotReturn / bet 7.956140350877193 / TranCosts / bet  0.3645224171539961 / CalcuAcc 0.6
+profit in %/bet: 1.31
+einsatz * 1+profit% ^ # wetten 613370255.95
+einsatz 1000
+25754742952.47176
+1.6770781793864404
+1.2043512062798787
+1085
+Amount of Columns 90
+0.5100875594496153
+algoprediction 1
+2020-11-23 00:00:00
