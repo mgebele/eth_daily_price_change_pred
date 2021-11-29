@@ -4,6 +4,7 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
+* [Results](#results)
 * [Features](#features)
 * [Setup](#setup)
 * [Usage](#usage)
@@ -18,8 +19,8 @@
 - Next to the basic model performance like precision and accuracy of this binary classification target there has been implemented a performance metric calculating the change in price for every daily prediction of a rise or fall in the eth-price. 
 - If the model predicted a rise in price for the next 24 hours, followed by a real increase of the eth-price of f. I. 5 % would deliver 5 $, assuming we take a bet of 100 $, every day the model has a sufficient prediction probability (0-100%).
 The contrary case of a followed eth-price change of -5 % would result in a loss of 5 $. This performance metric has also been compared to the performance of a simple buy and hold strategy for eth. 
-- The data has been trained on the years 2015 until 2019 and tested on the year 2020. 
-- Lastly the project consists of a trading bot which was deployed on an external server getting daily at 00:00 UTC the newest data, running the model-prediction and based on the result executing long buy and sell orders on the eth-perp asset via the Binance-api. On every execution, the information about the daily model prediction has been sent out via email. 
+- The data has been trained on three years and tested on the fourth. We executed this process so we got finally results for all the fours years. 
+- Lastly the project consists of a trading bot which was deployed on an external server getting daily at 00:00 UTC the newest data, running the model-prediction and based on the result executing long buy and short buy orders on the eth-perp asset via the Binance-api. On every execution, the information about the daily model prediction has been sent out via email. 
 
 ## Technologies Used
 - Python 3 in VSCode with the Juypter extension  
@@ -125,6 +126,19 @@ most important features after the random forest feature selection method (Detail
 - Log Price in USD
 - percentage_daily_return_bef_shift
 - price_usd_close_percent_of_maxtilnow
+
+## Results
+To interprete the model results its important to compare the implemented performance metric to the simple buy-and-hold strategy which yielded the following rewards per year:
+- year 2017: total +8942 % -> +24.50 % per day
+- year 2018: total -83 % -> -0.23 % per day
+- year 2019: total -8 % ->  -0.02 % per day
+- year 2020: total +564 % -> +1.55 % per day
+
+The model results are more balanced and positive for all four years, but performed for the year 2020 way worse than the buy-and-hold strategy. However in the year 2018 the model performed positive despite the eth-price falling 83 %, which shows that the short buy orders of the model were quite useful in this period of time:
+- year 2017: total +208 % -> +0.57 % per day
+- year 2018: total +183 % -> +0.50 % per day
+- year 2019: total +95 % ->  +0.26 % per day
+- year 2020: total +168 % -> +0.46 % per day
 
 ## Setup
 For running these project python3 needs to be installed as well as the packages specified in the requieremts.txt. Lastly Jupyter Notebook or Jupyter Lab can be used to inspect and execute the code. The most current version of the model is the "dailydata_featureengineering_xgboost_ethbtcfinance.ipynb" located in "Pr BTC\ml_model\final_models\". This runs on execution with the btc and eth onchain- and exchange-data.
