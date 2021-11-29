@@ -12,20 +12,20 @@
 * [Project Organization](#project-organization)
 
 ## General Information
-- The raw data used for the machine learning (ml) model consists of onchain- and exchange-metrics from Glassnode for the by market cap two biggest cryptocurrencies btc and eth. Furthermore, there has been experimented with including general financial data (currency rates, commodities, stock indices) from the yfinance api and sentiment data from twitter.
-In the feature engineering step, the most useful features have been selected as well as calculated to new features to improve the predictive power of eth-price change.
-These steps resulted in different combinations represented by different datasets, which were tested on different ml-models including hyperparameter tuning on the two most promising models xgboost and random forest.
-Next to the basic model performance like precision and accuracy of this binary classification target there has been implemented a performance metric calculating the change in price for every daily prediction of a rise or fall in the eth-price. 
-If the model predicted a rise in price for the next 24 hours, followed by a real increase of the eth-price of f. I. 5 % would deliver 5 $, assuming we take a bet of 100 $, every day the model has a sufficient prediction probability (0-100%).
+- The raw data used for the machine learning (ml) model consists of onchain- and exchange-metrics from Glassnode for the by market cap two biggest cryptocurrencies btc and eth. Furthermore, there has been experimented with including general financial data (currency rates, commodities, stock indices) from the yfinance api and sentiment data from twitter. 
+- In the feature engineering step, the most useful features have been selected as well as calculated to new features to improve the predictive power of eth-price change.
+- These steps resulted in different combinations represented by different datasets, which were tested on different ml-models including hyperparameter tuning on the two most promising models xgboost and random forest.
+- Next to the basic model performance like precision and accuracy of this binary classification target there has been implemented a performance metric calculating the change in price for every daily prediction of a rise or fall in the eth-price. 
+- If the model predicted a rise in price for the next 24 hours, followed by a real increase of the eth-price of f. I. 5 % would deliver 5 $, assuming we take a bet of 100 $, every day the model has a sufficient prediction probability (0-100%).
 The contrary case of a followed eth-price change of -5 % would result in a loss of 5 $. This performance metric has also been compared to the performance of a simple buy and hold strategy for eth. 
-The data has been trained on the years 2015 until 2019 and tested on the year 2020. 
-Lastly the project consists of a trading bot which was deployed on an external server getting daily at 00:00 UTC the newest data, running the model-prediction and based on the result executing long buy and sell orders on the eth-perp asset via the Binance-api. On every execution, the information about the daily model prediction has been sent out via email. 
+- The data has been trained on the years 2015 until 2019 and tested on the year 2020. 
+- Lastly the project consists of a trading bot which was deployed on an external server getting daily at 00:00 UTC the newest data, running the model-prediction and based on the result executing long buy and sell orders on the eth-perp asset via the Binance-api. On every execution, the information about the daily model prediction has been sent out via email. 
 
 ## Technologies Used
 - Python 3 in VSCode with the Juypter extension  
 
 ## Features
-most important features after the random forest feature selection method:
+most important features after the random forest feature selection method (Detailed information about the different metrics can be found on [Glassnode](https://docs.glassnode.com/)):
 - addresses/new_non_zero_count
 - addresses/active_count
 - addresses/sending_count
@@ -130,7 +130,6 @@ most important features after the random forest feature selection method:
 For running these project python3 needs to be installed as well as the packages specified in the requieremts.txt. Lastly Jupyter Notebook or Jupyter Lab can be used to inspect and execute the code. The most current version of the model is the "dailydata_featureengineering_xgboost_ethbtcfinance.ipynb" located in "Pr BTC\ml_model\final_models\". This runs on execution with the btc and eth onchain- and exchange-data.
 
 ## Room for Improvement
-Room for improvement and To-Dos:
 - Testing of different kind of ml-models like deep neural nets, reinforcement learning and models using evolutionary-algorithms
 - Changing the target from eth-price-change to other cryptocurrency coins for which the model performance increases. 
 - Including more statistical analyses based on price moving patterns. 
@@ -143,23 +142,22 @@ Room for improvement and To-Dos:
 
 ## Project Organization
 │<br />
-├── README.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- The top-level README for developers using the project.<br />
+├── README.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- The top-level README for developers using the project.<br />
 │<br />
-├── requirements.txt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Containing the python packages incl. versions used within this project.<br />
+├── requirements.txt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Containing the python packages incl. versions used within this project.<br />
 │<br />
-├── automated_trading_bot  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Includes the code and the results of the deployed version which predicts daily<br />
+├── automated_trading_bot  &nbsp;&nbsp;&nbsp;<- Includes the code and the results of the deployed version which predicts daily<br />
 │<br />
-├── calculated_datasets &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <- The datasets calculated from the ipynbs in ml_model -> dataset_generation <br />
+├── calculated_datasets &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <- The datasets calculated from the ipynbs in ml_model -> dataset_generation <br />
 │<br />
-├── data     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <- Raw data from glassnode and yahoofinance used for calculating the datasets<br />
+├── data     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <- Raw data from glassnode and yahoofinance used for calculating the datasets<br />
 │<br />
-└── scripts     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <- Python scripts used within this project.<br />
+└── scripts     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <- Python scripts used within this project.<br />
 &nbsp;&nbsp;&nbsp;│<br />
-&nbsp;&nbsp;&nbsp;├── dataset_generation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Scripts to generate the "calculated dataset". <br />
+&nbsp;&nbsp;&nbsp;├── dataset_generation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Scripts to generate the "calculated dataset". <br />
 &nbsp;&nbsp;&nbsp;│<br />
-&nbsp;&nbsp;&nbsp;├── final_models &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Ipynbs which contain the best versions of the ml-model to predict the target.<br />
+&nbsp;&nbsp;&nbsp;├── final_models &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Ipynbs which contain the best versions of the ml-model to predict the target.<br />
 &nbsp;&nbsp;&nbsp;│       <br />
-&nbsp;&nbsp;&nbsp;├── model_development&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <- Scripts used for the development of the best model and best features.<br />
+&nbsp;&nbsp;&nbsp;├── model_development&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <- Scripts used for the development of the best model and best features.<br />
 &nbsp;&nbsp;&nbsp;│<br />
-&nbsp;&nbsp;&nbsp;└── model_output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xlsx files containing the performance of different models, parameters & features.<br />
-
+&nbsp;&nbsp;&nbsp;└── model_output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xlsx files containing the performance of different models, parameters & features.<br />
