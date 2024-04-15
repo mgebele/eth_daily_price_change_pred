@@ -1,41 +1,26 @@
 # Standard libraries
 import os
-import json
 import time
 import datetime
 import smtplib
 import statistics
-import math
-
-# Data handling
 import pandas as pd
 import numpy as np
 
-# Machine learning and statistics
-from sklearn.linear_model import LogisticRegression
-from sklearn.feature_selection import SelectFromModel
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_auc_score, roc_curve
-from sklearn.neighbors import KNeighborsClassifier
+# Machine learning
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import StratifiedKFold, cross_val_score, train_test_split
-from sklearn.preprocessing import MinMaxScaler
-from xgboost import XGBClassifier
 
-# Plotting and output
-import plotly.graph_objects as go
-import xlsxwriter
-
-# Email
-from email.mime.application import MIMEApplication
-from email.mime.image import MIMEImage
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-
-# External APIs and Database
+# External APIs and Data storage
 from binance.client import Client
 from sqlalchemy import create_engine
-from os.path import basename
+import xlsxwriter
+
+# Plotting
+import plotly.graph_objects as go
+
+# Email
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 # Configuration Variables 
 API_KEY = "" # Glassnode API Key
