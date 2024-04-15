@@ -1,50 +1,46 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# <h1>Table of Contents<span class="tocSkip"></span></h1>
-# <div class="toc"><ul class="toc-item"><li><span><a href="#Data" data-toc-modified-id="Data-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Data</a></span><ul class="toc-item"><li><span><a href="#Data-Import-via-Application-Programming-Interfaces" data-toc-modified-id="Data-Import-via-Application-Programming-Interfaces-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Data Import via Application Programming Interfaces</a></span><ul class="toc-item"><li><span><a href="#Bitcoin-API---Daily-Basis" data-toc-modified-id="Bitcoin-API---Daily-Basis-1.1.1"><span class="toc-item-num">1.1.1&nbsp;&nbsp;</span>Bitcoin API - Daily Basis</a></span></li><li><span><a href="#Bitcoin-API---Hourly-Basis" data-toc-modified-id="Bitcoin-API---Hourly-Basis-1.1.2"><span class="toc-item-num">1.1.2&nbsp;&nbsp;</span>Bitcoin API - Hourly Basis</a></span></li><li><span><a href="#Ethereum-API---Daily-Basis" data-toc-modified-id="Ethereum-API---Daily-Basis-1.1.3"><span class="toc-item-num">1.1.3&nbsp;&nbsp;</span>Ethereum API - Daily Basis</a></span></li><li><span><a href="#Ethereum-API---Hourly-Basis" data-toc-modified-id="Ethereum-API---Hourly-Basis-1.1.4"><span class="toc-item-num">1.1.4&nbsp;&nbsp;</span>Ethereum API - Hourly Basis</a></span></li></ul></li><li><span><a href="#Bitcoin-Feature" data-toc-modified-id="Bitcoin-Feature-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Bitcoin Feature</a></span><ul class="toc-item"><li><span><a href="#Bitcoin-Feature-Daily---Tier-1" data-toc-modified-id="Bitcoin-Feature-Daily---Tier-1-1.2.1"><span class="toc-item-num">1.2.1&nbsp;&nbsp;</span>Bitcoin Feature Daily - Tier 1</a></span></li><li><span><a href="#Bitcoin-Feature-Hourly---Tier-1" data-toc-modified-id="Bitcoin-Feature-Hourly---Tier-1-1.2.2"><span class="toc-item-num">1.2.2&nbsp;&nbsp;</span>Bitcoin Feature Hourly - Tier 1</a></span></li><li><span><a href="#Bitcoin-Feature-Daily---Tier-2" data-toc-modified-id="Bitcoin-Feature-Daily---Tier-2-1.2.3"><span class="toc-item-num">1.2.3&nbsp;&nbsp;</span>Bitcoin Feature Daily - Tier 2</a></span></li></ul></li><li><span><a href="#Bitcoin-Data" data-toc-modified-id="Bitcoin-Data-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Bitcoin Data</a></span><ul class="toc-item"><li><span><a href="#Bitcoin-Data-Daily-Tier-1" data-toc-modified-id="Bitcoin-Data-Daily-Tier-1-1.3.1"><span class="toc-item-num">1.3.1&nbsp;&nbsp;</span>Bitcoin Data Daily Tier 1</a></span></li><li><span><a href="#Bitcoin-Data-Hourly-Tier-1" data-toc-modified-id="Bitcoin-Data-Hourly-Tier-1-1.3.2"><span class="toc-item-num">1.3.2&nbsp;&nbsp;</span>Bitcoin Data Hourly Tier 1</a></span></li><li><span><a href="#Bitcoin-Data-Daily-Tier-2" data-toc-modified-id="Bitcoin-Data-Daily-Tier-2-1.3.3"><span class="toc-item-num">1.3.3&nbsp;&nbsp;</span>Bitcoin Data Daily Tier 2</a></span></li></ul></li><li><span><a href="#Ethereum-Feature" data-toc-modified-id="Ethereum-Feature-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Ethereum Feature</a></span><ul class="toc-item"><li><span><a href="#Ethereum-Feature-Daily---Tier-1" data-toc-modified-id="Ethereum-Feature-Daily---Tier-1-1.4.1"><span class="toc-item-num">1.4.1&nbsp;&nbsp;</span>Ethereum Feature Daily - Tier 1</a></span></li><li><span><a href="#Ethereum-Feature-Hourly---Tier-1" data-toc-modified-id="Ethereum-Feature-Hourly---Tier-1-1.4.2"><span class="toc-item-num">1.4.2&nbsp;&nbsp;</span>Ethereum Feature Hourly - Tier 1</a></span></li><li><span><a href="#Ethereum-Feature-Daily---Tier-2" data-toc-modified-id="Ethereum-Feature-Daily---Tier-2-1.4.3"><span class="toc-item-num">1.4.3&nbsp;&nbsp;</span>Ethereum Feature Daily - Tier 2</a></span></li></ul></li><li><span><a href="#Ethereum-Data" data-toc-modified-id="Ethereum-Data-1.5"><span class="toc-item-num">1.5&nbsp;&nbsp;</span>Ethereum Data</a></span><ul class="toc-item"><li><span><a href="#Ethereum-Data-Daily---Tier-1" data-toc-modified-id="Ethereum-Data-Daily---Tier-1-1.5.1"><span class="toc-item-num">1.5.1&nbsp;&nbsp;</span>Ethereum Data Daily - Tier 1</a></span></li><li><span><a href="#Ethereum-Data-Hourly---Tier-1" data-toc-modified-id="Ethereum-Data-Hourly---Tier-1-1.5.2"><span class="toc-item-num">1.5.2&nbsp;&nbsp;</span>Ethereum Data Hourly - Tier 1</a></span></li><li><span><a href="#Ethereum-Data-Daily---Tier-2" data-toc-modified-id="Ethereum-Data-Daily---Tier-2-1.5.3"><span class="toc-item-num">1.5.3&nbsp;&nbsp;</span>Ethereum Data Daily - Tier 2</a></span></li></ul></li><li><span><a href="#Target-Variables" data-toc-modified-id="Target-Variables-1.6"><span class="toc-item-num">1.6&nbsp;&nbsp;</span>Target Variables</a></span></li></ul></li><li><span><a href="#Financial-features" data-toc-modified-id="Financial-features-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Financial features</a></span><ul class="toc-item"><li><span><a href="#Bond-Yield-CSV-Files" data-toc-modified-id="Bond-Yield-CSV-Files-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Bond Yield CSV-Files</a></span></li><li><span><a href="#Currency-CSV-Files" data-toc-modified-id="Currency-CSV-Files-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Currency CSV-Files</a></span></li></ul></li><li><span><a href="#Stocks" data-toc-modified-id="Stocks-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Stocks</a></span><ul class="toc-item"><li><span><a href="#Data-Set-II.---Blockchain-and-Economic-Metrics" data-toc-modified-id="Data-Set-II.---Blockchain-and-Economic-Metrics-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Data Set II. - Blockchain and Economic Metrics</a></span></li></ul></li></ul></div>
-
-# # Data Preprocessing
-
-# ## Data Import via Application Programming Interfaces
-
-# In[1]:
+# Standard libraries
+import os
+import json
+import time
+import datetime
 import smtplib
-from os.path import basename
+import statistics
+import math
+
+# Data handling
+import pandas as pd
+import numpy as np
+
+# Machine learning and statistics
+from sklearn.linear_model import LogisticRegression
+from sklearn.feature_selection import SelectFromModel
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_auc_score, roc_curve
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import StratifiedKFold, cross_val_score, train_test_split
+from sklearn.preprocessing import MinMaxScaler
+from xgboost import XGBClassifier
+
+# Plotting and output
+import plotly.graph_objects as go
+import xlsxwriter
+
+# Email
 from email.mime.application import MIMEApplication
 from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from sklearn.linear_model import LogisticRegression
-from sklearn.feature_selection import SelectFromModel
-from numpy import inf
-from xgboost import XGBClassifier
-import xlsxwriter
-from sklearn.metrics import accuracy_score
-import plotly.graph_objects as go
-import statistics
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import confusion_matrix, classification_report
-from sklearn.metrics import roc_auc_score, roc_curve
-from sklearn.model_selection import StratifiedKFold
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import train_test_split
-import math
-from sklearn.preprocessing import MinMaxScaler
+
+# External APIs and Database
 from binance.client import Client
-
-# Import of Modules and Packages
 from sqlalchemy import create_engine
-import os
-import requests
-import json
-import datetime
-import time
-import numpy as np
-import pandas as pd
+from os.path import basename
 
+# Configuration Variables 
+API_KEY = "" # Glassnode API Key
+EMAIL_SEND = 'gebele.markus@googlemail.com'
+DATABASE_URI = "mysql://root:root@127.0.0.1/eth_predictions"
 
 d = datetime.datetime(2020, 5, 17)
 dateofprediction = [d]
@@ -56,8 +52,6 @@ leverage_amount = 2
 # Adjustment of Decimal Places
 pd.options.display.float_format = '{:.2f}'.format
 
-# Glassnode API Key
-API_Key = ''
 
 get_base_wd = os.getcwd()
 
@@ -1021,8 +1015,5 @@ if dateofprediction[0] + datetime.timedelta(hours=hourd) > datetime.datetime.now
                         con=engine, index=False,
                         if_exists='append',
                         )
-
-    # except:
-    #     sendmail_error()
 
 f.close()
