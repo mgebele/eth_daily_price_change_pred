@@ -2,23 +2,18 @@
 import os
 import time
 import datetime
-import smtplib
 import statistics
 import pandas as pd
 import numpy as np
+import requests
+import smtplib
 
 # Machine learning
 from sklearn.ensemble import RandomForestClassifier
 
-# External APIs and Data storage
+# External APIs Email and Data storage
 from binance.client import Client
 from sqlalchemy import create_engine
-import xlsxwriter
-
-# Plotting
-import plotly.graph_objects as go
-
-# Email
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
@@ -36,7 +31,6 @@ leverage_amount = 2
 
 # Adjustment of Decimal Places
 pd.options.display.float_format = '{:.2f}'.format
-
 
 get_base_wd = os.getcwd()
 
